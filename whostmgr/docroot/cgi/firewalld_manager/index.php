@@ -70,7 +70,7 @@ function h($s){ return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
         <button class="btn" onclick="panic('off')">Panic OFF</button>
       </div>
       <div class="divider"></div>
-      <pre id="panic_out">Use the buttons above to toggle.</pre>
+      <pre id="panic_out">DANGER: THIS WILL CUT OFF ALL NETWORKING TO YOUR SERVER - YOU WILL NEED TO CONSOLE YOUR SERVER!</pre>
     </div>
 
     <!-- Zones: info / CRUD / default -->
