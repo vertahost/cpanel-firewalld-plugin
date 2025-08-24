@@ -1,7 +1,7 @@
 #!/usr/local/cpanel/3rdparty/bin/php -q
 <?php
 /**
- * WHM/cPanel — Firewalld Manager UI (single file)
+ * WHM/cPanel — Firewalld Manager UI 
  * Works with api.php → fwctl.sh (+ zone-inspect via firewall-cmd)
  */
 header('Content-Type: text/html; charset=UTF-8');
