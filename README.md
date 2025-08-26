@@ -1,3 +1,5 @@
+Still under construction, but the basics are here if you are technical
+
 1) Clone files to your server
 
 2) sh install.sh
