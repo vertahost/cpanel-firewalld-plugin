@@ -14,7 +14,9 @@ Jq
 firewalld should be installed, and running, and your SSH port added, or the SSH service enabled in firewalld. You may need to console your server to setup firewalld at first if you use a non-default SSH port.
 
 sudo firewall-cmd --permanent --add-port=$PORTNUM/tcp
+
 (change $PORTNUM to the port number you have set for SSH)
+
 Then restart firewalld
 
 
