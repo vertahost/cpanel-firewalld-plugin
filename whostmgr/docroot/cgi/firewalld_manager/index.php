@@ -1,8 +1,8 @@
 #!/usr/local/cpanel/3rdparty/bin/php -q
 <?php
 /**
- * WHM/cPanel — Firewalld Manager UI (single file)
- * Works with api.php → fwctl.sh (+ zone-inspect via firewall-cmd)
+ * WHM/cPanel — Firewalld Manager UI 
+ * Works with api.php → fwctl.sh
  * 
  */
 header('Content-Type: text/html; charset=UTF-8');
@@ -394,7 +394,7 @@ function zoneSummaryRenderer(zoneName, jsonText){
       <div class="row"><strong>Zone Summary:</strong> ${badge(zoneName,'accent')}</div>
       <table>
         <thead><tr>
-          <th>Category</th><th>Runtime-only</th><th>Permanent-only</th><th>Shared</th><th>Total (RT)</th><th>Total (Perm)</th>
+          <th>Category</th><th>Runtime-only</th><th>Permanent-only</th><th>Permanent Saved</th><th>Total (RT)</th><th>Total (Perm)</th>
         </tr></thead>
         <tbody>${rows}</tbody>
       </table>
@@ -429,7 +429,7 @@ function renderZoneDetails(zoneName, jsonText){
        ${rowsPermanentOnly.join('')}
        <div class="divider"></div>
        <details open>
-         <summary><strong>Shared (in both runtime & permanent)</strong></summary>
+         <summary><strong>Permanent Saved</strong></summary>
          ${rowsShared.join('')}
        </details>
        <div class="divider"></div>
