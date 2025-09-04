@@ -1,4 +1,10 @@
 #!/usr/local/cpanel/3rdparty/bin/php -q
+
+<?php
+ require_once('/usr/local/cpanel/php/WHM.php');
+    WHM::header('Firewalld Manager',0,0);
+?>
+
 <?php
 /**
  * WHM/cPanel — Firewalld Manager UI 
