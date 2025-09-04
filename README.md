@@ -92,6 +92,6 @@ To add a rich rule via command line, encapsulate the rule in a single quote, for
 
 
 
-Please note there are no warranties expressed or implied. You can break things using or installing this plugin. This plugin has been tested with the latest WHM Version, 130.0.7. The manager panel is generally self explanatory, If further documentation is needed, please open an issue and we will review further.
+Please note there are no warranties expressed or implied. You can break things using or installing this plugin. This plugin has been tested with the latest WHM Version, 130.0.7. The manager panel is generally self explanatory, If further documentation is needed, please open an issue and I will review further.
 
 Also, the panel is slightly slow, After clicking a button, give things a minute to fully respond and then update. Things need to go through PHP > Shell bash wrapper, making things slightly slower in response.
