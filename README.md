@@ -1,4 +1,4 @@
-Before beginnning installation, please make sure to first make sure you have console access to your server, and you can login there. Also please fully read through this documentation before installing or reconfiguring anything.
+Before beginnning installation, please make sure you have console access to your server, and you can login through there. Also please fully read through this documentation before installing or reconfiguring anything.
 
 Steps to Install:
 
